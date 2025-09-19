@@ -1,8 +1,10 @@
 import React from "react";
+import Header from "./header";
 
 const About = () => {
   return (
     <div className="min-h-screen w-full bg-[#0f172a] relative">
+      <Header />
       {/* Dark Dotted Grid Background */}
       <div className="min-h-screen w-full relative bg-black">
         {/* Prismatic Aurora Burst - Multi-layered Gradient */}
@@ -19,44 +21,44 @@ const About = () => {
           }}
         />
 
-        <div className="relative z-10 flex flex-col items-center justify-center py-20  text-center h-dvh">
-          <div className="flex flex-col md:flex-row items-center gap-10  mx-10">
+        <div className="relative flex flex-col items-center justify-center py-5 text-center h-dvh">
+          <div className="flex flex-col sm:flex-row items-center sm:gap-10 gap-5  mx-10">
             <img
               src="/assets/img/imgYuri.png"
               alt="avatar do yuri"
-              className="w-40 h-40 rounded-full border-purple-800 border bg-purple-300"
+              className="sm:w-40 sm:h-40 size-40 rounded-full border-purple-800 border bg-purple-300"
             />
 
-            <div className="flex-col flex gap-3">
+            <div className="flex-col flex sm:gap-3 items-center sm:items-baseline">
               <div className="flex flex-col">
-                <div>
-                  <h1 className="flex font-poppins text-white font-semibold text-md pl-1">
-                    Fala eae!
+                <div className="flex sm:justify-start justify-center">
+                  <h1 className="flex font-poppins text-gray-300 font-bold text-[15px] sm:text-md pl-1">
+                    Fala, eae!
                   </h1>
                 </div>
-                <div className="flex items-center gap-4">
-                  <h1 className="text-4xl md:text-6xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-white via-purple-300 to-pink-300">
+                <div className="flex items-center">
+                  <h1 className=" text-4xl sm:text-6xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-white via-purple-300 to-pink-300">
                     Eu sou o Yuri
                   </h1>
                 </div>
               </div>
-              <div className="flex flex-col justify-start gap-2 text-start">
-                <p className="text-2xl text-gray-300 font-poppins font-semibold ">
-                  Sou desenvolvedor Backend
+              <div className="flex flex-col justify-start gap-2 sm:text-start ">
+                <p className="sm:text-3xl text-gray-300 font-poppins font-semibold text-[23px]">
+                  Desenvolvedor Backend
                 </p>
-                <p className=" text-lg text-gray-400 mb-8 font-poppins">
+                <p className="font-semibold text-lg text-gray-400 mb-8 font-poppins text-[12px]sm:text-3xl">
                   Entusiasta da tecnologia e apaixonado por criar soluções.{" "}
                   <br />
                   Vivendo em uma busca constante por conhecimento e inovação.
                 </p>
               </div>
 
-              <div className="flex gap-15">
+              <div className="sm:flex flex-col sm:flex-row items-center flex sm:gap-15">
                 <div className="gap-5 flex">
-                  <button className="px-6 py-3 bg-gray-900 hover:bg-gray-800 text-white rounded-lg transition-all duration-300 transform hover:scale-105 cursor-pointer">
+                  <button className="w-30 h-10 bg-gray-900 hover:bg-gray-800 text-white rounded-lg transition-all duration-300 transform hover:scale-105 cursor-pointer sm:text-sm font-semibold text-[10px]">
                     Fale comigo!
                   </button>
-                  <button className="px-6 py-3 bg-gray-900 hover:bg-gray-800 text-white rounded-lg transition-all duration-300 transform hover:scale-105  cursor-pointer">
+                  <button className="w-30 h-10 sm:w-40 text-[10px] bg-gray-900 hover:bg-gray-800 text-white rounded-lg transition-all duration-300 transform hover:scale-105  cursor-pointer sm:text-sm font-semibold">
                     Veja meus projetos!
                   </button>
                 </div>
