@@ -1,12 +1,17 @@
 import React from "react";
 import Header from "./header";
 
-const About = () => {
+const Home = () => {
   return (
     <div className="min-h-screen w-full bg-[#0f172a] relative">
-      <Header />
+      <div className="fixed top-0 left-0 w-full z-50">
+        <Header />
+      </div>
       {/* Dark Dotted Grid Background */}
-      <div className="min-h-screen w-full relative bg-black">
+      <div
+        className="min-h-screen w-full relative bg-black pt-10 sm:pt-0"
+        id="home"
+      >
         {/* Prismatic Aurora Burst - Multi-layered Gradient */}
         <div
           className="absolute inset-0 z-0"
@@ -115,4 +120,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Home;

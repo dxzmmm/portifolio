@@ -7,7 +7,7 @@ const MenuHamb = () => {
   return (
     <div className="relative">
       {/* Botão */}
-      <div className="flex border border-gray-400 bg-purple-400 h-7 w-7 justify-center items-center">
+      <div className="flex border border-gray-400 bg-purple-400 h-7 w-7 justify-center items-center rounded-sm">
         <button onClick={() => setOpen(!isOpen)}>
           {isOpen ? (
             // Ícone "X"

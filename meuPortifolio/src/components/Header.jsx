@@ -1,6 +1,5 @@
 import React from "react";
 import { Routes, Route, Link } from "react-router-dom";
-import { useState } from "react";
 import MenuHamb from "./MenuHamb";
 
 const Header = () => {
@@ -17,23 +16,23 @@ const Header = () => {
         </div>
       </div>
       <div className="md:flex justify-around w-md pt-2.5 hidden">
-        <Link to="/">
+        <a href="#home">
           <p className="text-sm font-poppins font-semibold text-texto hover:bg-zinc-800 p-2 transition-all duration-200 delay-120 rounded-sm">
             Home
           </p>
-        </Link>
+        </a>
 
-        <Link to="projetos">
-          <p className=" text-sm font-poppins font-semibold text-texto hover:bg-zinc-800 p-2 transition-all duration-200 delay-120 rounded-sm">
-            Meus Projetos
-          </p>
-        </Link>
-
-        <Link to="sobre">
+        <a href="#sobre">
           <p className="text-sm font-poppins font-semibold text-texto hover:bg-zinc-800 p-2 transition-all duration-200 delay-120 rounded-sm">
             Sobre Mim
           </p>
-        </Link>
+        </a>
+
+        <a href="#projetos">
+          <p className=" text-sm font-poppins font-semibold text-texto hover:bg-zinc-800 p-2 transition-all duration-200 delay-120 rounded-sm">
+            Meus Projetos
+          </p>
+        </a>
       </div>
     </div>
   );
