@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Route, Routes, Link } from "react-router-dom";
 
 const MenuHamb = () => {
   const [isOpen, setOpen] = useState(false);
@@ -48,15 +47,15 @@ const MenuHamb = () => {
       {/* Menu (aparece quando isOpen é true) */}
       {isOpen && (
         <div className="absolute top-10 right-0 bg-purple-300 text-black border border-gray-300 p-4 flex flex-col gap-2 w-40 shadow-lg shadow-pink-50 z-50">
-          <Link to="/">
+          <a href="#home">
             <h1 className=" font-semibold">Home</h1>
-          </Link>
-          <Link to="sobre">
+          </a>
+          <a href="#sobre">
             <h1 className=" font-semibold">Sobre mim</h1>
-          </Link>
-          <Link to="projetos">
+          </a>
+          <a href="#projetos">
             <h1 className=" font-semibold ">Meus projetos</h1>
-          </Link>
+          </a>
         </div>
       )}
     </div>

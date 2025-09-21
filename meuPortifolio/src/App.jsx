@@ -1,12 +1,15 @@
-import Home from "./components/Home";
-import Sobre from "./components/Sobre";
+import Portifolio from "./pages/Portifolio";
+import { Route, Routes, BrowserRouter } from "react-router-dom";
+import TelaAviso from "./pages/TelaAviso";
 
 function App() {
   return (
-    <>
-      <Home />
-      <Sobre />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Portifolio />} />
+        <Route path="/TelaAviso" element={<TelaAviso />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

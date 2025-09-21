@@ -29,7 +29,7 @@ const Sobre = () => {
         />
 
         {/* Card de conteúdo */}
-        <div className="relative border border-gray-600 bg-transparent backdrop-blur-md rounded-2xl shadow-2xl flex flex-col sm:flex-row w-full sm:w-[85%] max-w-6xl p-10 sm:p-14 z-10">
+        <div className="relative border border-purple-700 bg-transparent backdrop-blur-md rounded-2xl shadow-2xl flex flex-col sm:flex-row w-full sm:w-[85%] max-w-6xl p-10 sm:p-14 z-10">
           {/* Texto */}
           <div className="flex flex-col gap-8 sm:w-2/3">
             <h1 className="font-inter font-extrabold text-4xl sm:text-5xl text-center sm:text-left bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text text-transparent">
@@ -63,27 +63,27 @@ const Sobre = () => {
               <h2 className="text-2xl font-semibold text-gray-100">
                 Tecnologias que utilizo
               </h2>
-              <div className="flex flex-wrap gap-4">
+              <div className="flex flex-wrap sm:gap-4 gap-2 justify-center">
                 {/* Cada ícone com hover estilizado */}
-                <div className="group border border-gray-700 w-14 h-14 flex justify-center items-center rounded-xl cursor-pointer bg-black/20 hover:bg-black/40 transition duration-300 transform hover:scale-110 hover:shadow-lg">
+                <div className="group border border-gray-700 w-14 h-14 flex justify-center items-center rounded-xl cursor-pointer bg-black/20 hover:bg-black/40 transition duration-300 transform hover:scale-140 hover:shadow-lg">
                   <BiLogoJavascript className="text-yellow-400 text-3xl group-hover:rotate-12 transition-transform" />
                 </div>
-                <div className="group border border-gray-700 w-14 h-14 flex justify-center items-center rounded-xl cursor-pointer bg-black/20 hover:bg-black/40 transition duration-300 transform hover:scale-110 hover:shadow-lg">
+                <div className="group border border-gray-700 w-14 h-14 flex justify-center items-center rounded-xl cursor-pointer bg-black/20 hover:bg-black/40 transition duration-300 transform hover:scale-140 hover:shadow-lg">
                   <BiLogoTypescript className="text-blue-400 text-3xl group-hover:rotate-12 transition-transform" />
                 </div>
-                <div className="group border border-gray-700 w-14 h-14 flex justify-center items-center rounded-xl cursor-pointer bg-black/20 hover:bg-black/40 transition duration-300 transform hover:scale-110 hover:shadow-lg">
+                <div className="group border border-gray-700 w-14 h-14 flex justify-center items-center rounded-xl cursor-pointer bg-black/20 hover:bg-black/40 transition duration-300 transform hover:scale-140 hover:shadow-lg">
                   <BiLogoMongodb className="text-green-500 text-3xl group-hover:rotate-12 transition-transform" />
                 </div>
-                <div className="group border border-gray-700 w-14 h-14 flex justify-center items-center rounded-xl cursor-pointer bg-black/20 hover:bg-black/40 transition duration-300 transform hover:scale-110 hover:shadow-lg">
+                <div className="group border border-gray-700 w-14 h-14 flex justify-center items-center rounded-xl cursor-pointer bg-black/20 hover:bg-black/40 transition duration-300 transform hover:scale-140 hover:shadow-lg">
                   <FaReact className="text-cyan-400 text-3xl group-hover:rotate-12 transition-transform" />
                 </div>
-                <div className="group border border-gray-700 w-14 h-14 flex justify-center items-center rounded-xl cursor-pointer bg-black/20 hover:bg-black/40 transition duration-300 transform hover:scale-110 hover:shadow-lg">
+                <div className="group border border-gray-700 w-14 h-14 flex justify-center items-center rounded-xl cursor-pointer bg-black/20 hover:bg-black/40 transition duration-300 transform hover:scale-140 hover:shadow-lg">
                   <SiVite className="text-purple-400 text-3xl group-hover:rotate-12 transition-transform" />
                 </div>
-                <div className="group border border-gray-700 w-14 h-14 flex justify-center items-center rounded-xl cursor-pointer bg-black/20 hover:bg-black/40 transition duration-300 transform hover:scale-110 hover:shadow-lg">
+                <div className="group border border-gray-700 w-14 h-14 flex justify-center items-center rounded-xl cursor-pointer bg-black/20 hover:bg-black/40 transition duration-300 transform hover:scale-140 hover:shadow-lg">
                   <FaGithub className="text-gray-200 text-3xl group-hover:rotate-12 transition-transform" />
                 </div>
-                <div className="group border border-gray-700 w-14 h-14 flex justify-center items-center rounded-xl cursor-pointer bg-black/20 hover:bg-black/40 transition duration-300 transform hover:scale-110 hover:shadow-lg">
+                <div className="group border border-gray-700 w-14 h-14 flex justify-center items-center rounded-xl cursor-pointer bg-black/20 hover:bg-black/40 transition duration-300 transform hover:scale-140 hover:shadow-lg">
                   <SiMysql className="text-blue-500 text-3xl group-hover:rotate-12 transition-transform" />
                 </div>
               </div>
@@ -95,7 +95,7 @@ const Sobre = () => {
             <img
               src="/assets/img/fotoYuri.png"
               alt="Foto do Yuri"
-              className="w-72 h-96 object-cover rounded-2xl shadow-2xl border border-gray-600"
+              className="w-72 h-96 object-cover rounded-2xl shadow-2xl border-3 border-purple-900"
             />
           </div>
         </div>
